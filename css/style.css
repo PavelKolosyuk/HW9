@@ -1,0 +1,236 @@
+
+.share_inner {
+    background-image: url('../img/BG_desk.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 540px;
+    padding: 20px 0;
+    position: relative;    
+}
+
+.share_inner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1a1915;
+    opacity: .3;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.logo,
+.logo:hover {
+    text-decoration: none;
+}
+
+.menu {
+    margin-bottom: 116px;
+}
+
+.logo_h {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu_item {
+    display: inline-block;
+    padding: 10px 18px 10px 18px;
+    border: solid 2px;
+    border-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.menu_item:hover {
+    border-color: #fff;
+    text-decoration: none;
+    color: #fff;
+}
+
+.share_header {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.share_comment {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    padding: 0 50px;
+}
+
+.button_find {
+    margin-top: 18px;
+    width: 280px;
+    height: 40px;
+    background: #ff4e50;
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button_see {
+    margin-top: 18px;
+    width: 280px;
+    height: 40px;
+    background: #fff;
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ff4e50;
+    cursor: pointer;
+}
+
+.meet {
+    padding: 60px 0;
+}
+
+.meet_header {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #333;
+}
+
+.card {
+    height: 200px;
+    background: tomato;
+}
+
+.card-wrapper {
+    padding: 15px;
+}
+
+.partner {
+    width: 220px;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.pantner_name {
+    margin: 18px 0;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #333;
+}
+
+.partner_comment {
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #666;
+}
+
+.partner_photo {
+    display: block;
+    border-radius: 50%;
+}
+
+.partner_avatar {
+    position: relative;
+}
+
+.partner_icon {
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    right: -4px;
+    bottom: -4px;
+    width: 32px;
+    height: 32px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.red {
+    background-color: #ff4e50;
+    background-image: url(../img/TV_icon.png);
+}
+
+.yellow {
+    background-color: #ffa507;
+    background-image: url(../img/TUBE_icon.png);
+}
+
+.light_blue {
+    background-color: #1cd7ad;
+    background-image: url(../img/CUP_icon.png);
+}
+
+.blue {
+    background-color: #4e73db;
+    background-image: url(../img/PLANE_icon.png);
+}
+
+@media (min-width: 768px) {
+
+    .share_inner {
+        height: 620px;
+        padding: 40px 50px;
+    }
+
+    .menu {
+        margin-bottom: 0;
+    }
+
+    .header {
+        margin-bottom: 150px;
+    }
+
+    .share_header {
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .share_comment {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+
+    .button_find {
+        width: 226px;
+    }
+
+    .button_see {
+        width: 190px;
+    }
+}
